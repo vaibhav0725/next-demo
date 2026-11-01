@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <h1>{greeting}</h1>
-      <p className="lead">This page was pre-rendered at build time and works without a server. (push-to-deploy test 1)</p>
+      <p className="lead">This page was pre-rendered at build time and works without a server. (PR preview test)</p>
       <div className="card">
         <h2>A client-side component</h2>
         <p className="muted">The page is static HTML, and this counter runs in your browser after it loads.</p>
